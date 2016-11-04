@@ -76,7 +76,7 @@
 			},
 			_setScale:function(){
 				return this._radius=this.props.size/2,
-				this._fraction=2/this._seconds,
+				this._fraction=2/this.props.seconds,
 				this._tickPeriod=this._calculateTick(),
 				this._innerRadius=this.props.weight?this._radius-this.props.weight:this._radius/1.8
 			},
