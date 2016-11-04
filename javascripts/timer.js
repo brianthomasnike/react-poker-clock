@@ -1,6 +1,6 @@
 
 import React from 'react';
-import ReactCountdownClock from 'react-countdown-clock';
+import ReactCountdownClock from './countdown-clock';
 
 class Timer extends React.Component {
 	constructor(props) {
